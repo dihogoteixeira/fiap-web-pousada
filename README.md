@@ -50,7 +50,7 @@ Apos finalizado a subida do container acesse o endereço local da sua maquina in
 # Baixando imagem do dockerhub:
 
 ```
-$ docker push dihogoteixeira/gh3-pousada:latest
+$ docker pull dihogoteixeira/gh3-pousada:latest
 
 $ docker run -dti --name pousada-teste -p 8081:80 gh3-pousada:latest
 ```
