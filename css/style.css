@@ -184,14 +184,12 @@ body{
 
 /* NOTE: PADROES DO MENU - start*/
 nav{
-  width: 1250px;
+  width: auto;
   font-size: 95%;
   color: #800000;
   text-align: center;
   margin: auto;
-  position: fixed;
-  top: 0;
-  z-index: 100;
+  position: center;
 }
 
 nav ul {
@@ -202,11 +200,16 @@ nav ul li {
     display: inline-block;
 }
 
+nav a{
+  padding: 10px 40px;
+  font-size: 1.4em;
+}
+
 nav a:link{
   text-decoration: none;
   font-weight: bold;
   color: inherit;
-  padding: 0px 30px 0px 30px;
+  padding: 10px 40px;
 
 }
 
@@ -216,7 +219,7 @@ nav a:hover{
   color: #000000;
   background-color: #990000;
   border-radius: 5px;
-  font-size:96%;
+  font-size:1.3em;
 }
 
 nav a:visited{
@@ -232,4 +235,14 @@ footer{
   color: white;
   border: 2px solid black;
   background: black;
+}
+
+div#contato{
+  color: #FFFFFF;
+  text-align: inherit;
+}
+
+div#contato::placeholder{
+  color: white;
+  opacity: 1;
 }
