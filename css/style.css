@@ -15,7 +15,6 @@ h1{
 p {
   color: white;
   font-family: monospace;
-  text-align: left;
   border: 3px solid black;
   display: block;
   margin-left: 4cm;
@@ -42,6 +41,10 @@ body{
 .imgHeader {
   color: #0B6121;
 
+}
+
+.texServicos{
+  text-align: justify;
 }
 
 .imgSuitePadrao{
