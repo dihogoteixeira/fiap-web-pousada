@@ -47,36 +47,60 @@
           </p>
 
         </div>
-          <div class="slideshow-container">
-              <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
-                <img src="img/eventos/img_piscinaaerea.jpg" style="width:100%">
-                <div class="text">Piscina</div>
-              </div>
+<!--          <div class="slideshow-container">-->
+<!--              <div class="mySlides fade">-->
+<!--                <div class="numbertext">1 / 3</div>-->
+<!--                <img src="img/eventos/img_piscinaaerea.jpg" style="width:100%">-->
+<!--                <div class="text">Piscina</div>-->
+<!--              </div>-->
 
-              <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="img/eventos/piscina-externa-1.jpg" style="width:100%">
-                <div class="text">Piscina</div>
-              </div>
+<!--              <div class="mySlides fade">-->
+<!--                <div class="numbertext">2 / 3</div>-->
+<!--                <img src="img/eventos/piscina-externa-1.jpg" style="width:100%">-->
+<!--                <div class="text">Piscina</div>-->
+<!--              </div>-->
 
-              <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="img/eventos/piscina-externa-3.jpg" style="width:100%">
-                <div class="text">Piscina</div>
-              </div>
+<!--              <div class="mySlides fade">-->
+<!--                <div class="numbertext">3 / 3</div>-->
+<!--                <img src="img/eventos/piscina-externa-3.jpg" style="width:100%">-->
+<!--                <div class="text">Piscina</div>-->
+<!--              </div>-->
 
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
+<!--              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>-->
+<!--              <a class="next" onclick="plusSlides(1)">&#10095;</a>-->
+<!--            </div>-->
 
-            <br>
-            <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1)"></span>
-              <span class="dot" onclick="currentSlide(2)"></span>
-              <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
-          <script  type="text/javascript" src="script/script.js"></script>
+<!--            <br>-->
+<!--            <div style="text-align:center">-->
+<!--              <span class="dot" onclick="currentSlide(1)"></span>-->
+<!--              <span class="dot" onclick="currentSlide(2)"></span>-->
+<!--              <span class="dot" onclick="currentSlide(3)"></span>-->
+<!--            </div>-->
+<!--          <script  type="text/javascript" src="script/script.js"></script>-->
+        <div class="auto-menu" style="max-width:600px">
+            <img class="mySlides" src="img/eventos/img_praiamar.jpg" style="width:100%">
+            <img class="mySlides" src="img/eventos/piscina-externa-3.jpg" style="width:100%">
+            <img class="mySlides" src="img/eventos/externa_02.jpg" style="width:100%">
+            <img class="mySlides" src="img/eventos/externa_01.jpg" style="width:100%">
+            <img class="mySlides" src="img/eventos/spa-1.jpg" style="width:100%">
+            <img class="mySlides" src="img/eventos/bufe-1.jpg" style="width:100%">
+            <img class="mySlides" src="img/eventos/bufe-2.jpg" style="width:100%">
+        </div>
+        <script>
+            var myIndex = 0;
+            carousel();
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}
+                x[myIndex-1].style.display = "block";
+                setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+        </script>
           <div class="slogan">
             <h3>Troque as expectativas pelas boas suspresas da vida.</h3>
           </div>

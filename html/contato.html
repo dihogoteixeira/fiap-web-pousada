@@ -45,38 +45,52 @@
             Aqui você encontra uma equipe multidisciplinar de primeira linha, um local cercado de muita paz e tranquilidade,
             excelentes serviços além de um maravilhoso cardápio proporcionando equilíbrio para sua mente e beleza para o seu corpo.
         </p>
-
-    </div>
-    <div class="slideshow-container">
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="../img/eventos/img_piscinaaerea.jpg" style="width:100%">
-            <div class="text">Piscina</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="../img/eventos/piscina-externa-1.jpg" style="width:100%">
-            <div class="text">Piscina</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="../img/eventos/piscina-externa-3.jpg" style="width:100%">
-            <div class="text">Piscina</div>
-        </div>
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
 
-    <br>
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
+    <div id="contato">
+        <form class="form1" action="../index.html" autocomplete="on" method="post" accept-charset="utf-8">
+            <fieldset>
+<!--                <legend>Dados pessoais</legend>-->
+                <label for="nome">Nome Completo </label>
+                <input id="nome-completo" type="text" placeholder="Insira seu nome completo." required><br>
+                <label for="email">E-Mail</label>
+                <input id="email" type="email" placeholder="Insira seu e-mail." required><br>
+                <label for="usuario">Usuário </label>
+                <input id="usuario" type="text" placeholder="Insira seu nome de usuário." required><br>
+                <label for="senha">Senha </label>
+                <input id="senha" type="password" placeholder="Insira sua senha." required><br>
+                <label for="estado-civil">Estado Civíl</label>
+                <select class="estado-civil">
+                    <option value="S">Solteiro</option>
+                    <option value="C">Casado</option>
+                    <option value="V">Viúvo</option>
+                    <option value="D">Divorciado</option>
+                </select><br>
+                <label for="quartos">Quarto preferido </label>
+                <select class="quarto-preferido">
+                    <optgroup label="President">
+                        <option value="K">King</option>
+                        <option value="Q">Queen</option>
+                        <option value="P">Plus</option>
+                    </optgroup>
+                    <optgroup label="Luxo">
+                        <option value="K">King</option>
+                        <option value="Q">Queen</option>
+                        <option value="L">Luxo</option>
+                    </optgroup>
+                </select><br>
+                <textarea id="comentarios" rows="8" cols="80">Comentários, sugestões e reclamações.</textarea><br>
+                <input id="enviar" type="submit"><br>
+                <progress value="0" max="100">0%</progress><br>
+                <input id="limpar-dados" type="reset" value="Limpar dados"><br>
+        </form>
+        </fieldset>
+
+
     </div>
-    <script  type="text/javascript" src="../script/script.js"></script>
+
+
+
     <div class="slogan">
         <h3>Troque as expectativas pelas boas suspresas da vida.</h3>
     </div>
