@@ -255,10 +255,15 @@ footer{
 
 div#contato{
   color: #FFFFFF;
-  text-align: inherit;
+  text-align: left;
+  padding: 10px 40px;
 }
 
 div#contato::placeholder{
   color: white;
   opacity: 1;
+}
+
+form{
+  margin: auto;
 }
