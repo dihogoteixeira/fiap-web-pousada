@@ -96,6 +96,8 @@ body{
 
 .mySlides {
   display: none;
+  margin-left: 9cm;
+  margin-right: 16cm;
 }
 
 .deluxe{
@@ -135,6 +137,42 @@ body{
   border-radius: 3px 0 0 3px;
 }
 
+/* PADROES DO CONTATO - start*/
+fieldset{
+  background: #f2f2f2;
+  color: white;
+  margin-left: 5cm;
+  margin-right: 5cm;
+  box-sizing: border-box;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+label{
+  background: #f2f2f2;
+  color: black;
+}
+
+input{
+  background: white;
+  color: #717171;
+}
+
+select{
+  background: white;
+  color: #717171;
+}
+
+legend{
+  background: #f2f2f2;
+  color: black;
+}
+
+textarea{
+  background: white;
+  color: #717171;
+}
+
+/* PADROES DO CONTATO - end*/
 
 .next {
   right: 0;
