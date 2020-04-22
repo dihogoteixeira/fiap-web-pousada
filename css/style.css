@@ -15,13 +15,11 @@ h1{
 p {
   color: white;
   font-family: monospace;
-  text-align: center;
+  text-align: left;
   border: 3px solid black;
-
   display: block;
-  margin-left: inherit;
-  margin-right: inherit;
-
+  margin-left: 4cm;
+  margin-right: 4cm;
   padding: 30px 0;
   position: static;
   font-size: 1.4em;
@@ -41,8 +39,48 @@ body{
 }
 
 /* NOTE: PADROES PARA IMAGEM DO HEADER*/
-.imgHeader{
+.imgHeader {
   color: #0B6121;
+
+}
+
+.imgSuitePadrao{
+  color: white;
+  font-family: monospace;
+  text-align: left;
+  border: 3px solid black;
+  display: block;
+  margin-left: 4cm;
+  margin-right: 4cm;
+  padding: 30px 0;
+  position: static;
+  font-size: 1.4em;
+}
+
+.imgDeluxe{
+  color: white;
+  font-family: monospace;
+  text-align: left;
+  border: 3px solid black;
+  display: block;
+  margin-left: 4cm;
+  margin-right: 4cm;
+  padding: 30px 0;
+  position: static;
+  font-size: 1.4em;
+}
+
+.imgCrowded{
+  color: white;
+  font-family: monospace;
+  text-align: left;
+  border: 3px solid black;
+  display: block;
+  margin-left: 4cm;
+  margin-right: 4cm;
+  padding: 30px 0;
+  position: static;
+  font-size: 1.4em;
 }
 
 /* NOTE: slideshow container */
@@ -143,10 +181,22 @@ body{
 
 /* NOTE: PADROES DO MENU - start*/
 nav{
+  width: 1250px;
   font-size: 95%;
   color: #800000;
   text-align: center;
   margin: auto;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
 }
 
 nav a:link{
@@ -175,8 +225,8 @@ nav a:visited{
 
 footer{
   text-align: center;
-  font-size: 0.7em;
+  font-size: 0.6em;
   color: white;
-  border: 1px solid black;
+  border: 2px solid black;
   background: black;
 }
