@@ -1,12 +1,13 @@
-# Projeto  01:  Desenvolver  um  site  utilizando  apenas  HTML5/CSS para  uma POUSADA em  algum  ponto  turístico  do Brasil.
+# Projeto  01:  
+`Desenvolver  um  site  utilizando  apenas  HTML5/CSS para  uma POUSADA em  algum  ponto  turístico  do Brasil.`
 
-Deve conter:
+`Deve conter:`
 
 `a)` Página inicial falando sobre a pousada, contendo imagens e informações sobre a localização, apresentação da pousada e os serviços disponibilizados. Sistema de navegação para as demais páginas.
 
-`b)`Página contendo   as   acomodações   da   pousada   (quartos –apartamentos   ou   chalés),   mostrar   suas características, fotos, o que cada quarto possui. Dividir em três tipos de categorias com diferentes tamanhos e preços. Sistema de navegação para as demais páginas.
+`b)`Página contendo   as   acomodações   da   pousada   (`quartos –apartamentos   ou   chalés`),   mostrar   suas características, fotos, o que cada quarto possui. Dividir em três tipos de categorias com diferentes tamanhos e preços. Sistema de navegação para as demais páginas.
 
-`c)`Página exibindo os serviços da pousada. Exemplos: Massagem –Spa –Animação Infantil –Cozinha –Guia turístico, etc.  Sistema de navegação para as demais páginas.
+`c)`Página exibindo os serviços da pousada. `Exemplos:` Massagem –Spa –Animação Infantil –Cozinha –Guia turístico, etc.  Sistema de navegação para as demais páginas.
 
 `d)`Página com 15 imagens da pousada e/ou local onde ela está localizada. Sistema de navegação para as demais páginas.
 
