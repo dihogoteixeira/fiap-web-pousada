@@ -96,8 +96,8 @@ body{
 
 .mySlides {
   display: none;
-  margin-left: 9cm;
-  margin-right: 16cm;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .deluxe{
@@ -112,9 +112,14 @@ body{
   display: none;
 }
 
-.autoSlide{
-  margin-left: 640px;
-  margin-right: 640px;
+div.auto-menu{
+  margin-left: 350px;
+  margin-right: 5px;
+}
+
+div.autoSlide{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .prev, .next {
@@ -235,11 +240,10 @@ textarea{
   to {opacity: 1}
 }
 
-
 /* NOTE: PADROES DO MENU - start*/
 nav{
   width: auto;
-  font-size: 95%;
+  font-size: 75%;
   color: #800000;
   text-align: center;
   margin: auto;
