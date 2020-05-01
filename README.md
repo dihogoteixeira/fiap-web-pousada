@@ -14,8 +14,15 @@
 `e)`Formulário de contato. Sistema de navegação para as demais páginas.
 
 ## Integrantes do grupo Gh3
-- [x]
-
+- [ ] Mercury
+- [x] Venus
+- [x] Earth (Orbit/Moon)
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Comet Haley
 ```
 - \[X]         # [checkbox:checked]
 # [checkbox:checked]
