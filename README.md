@@ -16,6 +16,8 @@
 ## Integrantes do grupo Gh3
 
 ```
+# [checkbox:checked]
+- \[X]
 [checkbox:checked] - [X] Alexandre Pacheco do Couto (85657)
 [checkbox:checked] - [X] Allan Phyllyp Reis (85619)
 [checkbox:checked] - [X] Dihogo Cassimiro Teixeira (84082)
