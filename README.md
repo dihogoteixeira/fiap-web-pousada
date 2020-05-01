@@ -16,12 +16,12 @@
 ## Integrantes do grupo Gh3
 
 ```
-- [X] Alexandre Pacheco do Couto (85657)
-- [X] Allan Phyllyp Reis (85619)
-- [X] Dihogo Cassimiro Teixeira (84082)
-- [X] Fernando Borgatto Bouman (85833)
-- [X] Ingrid Pinheiro (83579)
-- [X] Juan Carlos Benvive Serrano (85468)
+[checkbox:checked] - [X] Alexandre Pacheco do Couto (85657)
+[checkbox:checked] - [X] Allan Phyllyp Reis (85619)
+[checkbox:checked] - [X] Dihogo Cassimiro Teixeira (84082)
+[checkbox:checked] - [X] Fernando Borgatto Bouman (85833)
+[checkbox:checked] - [X] Ingrid Pinheiro (83579)
+[checkbox:checked] - [X] Juan Carlos Benvive Serrano (85468)
 ```
 
 # Build do projeto no Docker:
