@@ -16,6 +16,7 @@
 ## Integrantes do grupo Gh3
 
 ```
+- \[X]         # [checkbox:checked]
 # [checkbox:checked]
 - \[X]
 [checkbox:checked] - [X] Alexandre Pacheco do Couto (85657)
