@@ -14,25 +14,14 @@
 `e)`Formulário de contato. Sistema de navegação para as demais páginas.
 
 ## Integrantes do grupo Gh3
-- [ ] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
+
 ```
-- \[X]         # [checkbox:checked]
-# [checkbox:checked]
-- \[X]
-[checkbox:checked] - [X] Alexandre Pacheco do Couto (85657)
-[checkbox:checked] - [X] Allan Phyllyp Reis (85619)
-[checkbox:checked] - [X] Dihogo Cassimiro Teixeira (84082)
-[checkbox:checked] - [X] Fernando Borgatto Bouman (85833)
-[checkbox:checked] - [X] Ingrid Pinheiro (83579)
-[checkbox:checked] - [X] Juan Carlos Benvive Serrano (85468)
+- [x] Alexandre Pacheco do Couto (85657)
+- [x] Allan Phyllyp Reis (85619)
+- [x] Dihogo Cassimiro Teixeira (84082)
+- [x] Fernando Borgatto Bouman (85833)
+- [x] Ingrid Pinheiro (83579)
+- [x] Juan Carlos Benvive Serrano (85468)
 ```
 
 # Build do projeto no Docker:
