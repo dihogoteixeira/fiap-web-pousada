@@ -14,6 +14,7 @@
 `e)`Formulário de contato. Sistema de navegação para as demais páginas.
 
 ## Integrantes do grupo Gh3
+- [x]
 
 ```
 - \[X]         # [checkbox:checked]
